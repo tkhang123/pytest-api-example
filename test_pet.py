@@ -95,6 +95,7 @@ def test_get_by_id_404(id, expected_code):
 #     "status": "available"
 #   }
 # ]
+#
 # 2) Was able to create pet with negative integers like "-1", backend needs to validate the positive integers only
 # [
 #   {
@@ -122,4 +123,5 @@ def test_get_by_id_404(id, expected_code):
 #     "status": "available"
 #   }
 # ]
+#
 #3) The Order model "id" should probably be an integer.
